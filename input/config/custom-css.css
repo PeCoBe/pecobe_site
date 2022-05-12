@@ -1,0 +1,97 @@
+/*
+	Share Buttons
+*/
+.centerDiv
+{
+  width: 60%;
+  height:200px;
+  margin: 0 auto;
+  background-color:#FFA500 ;
+}
+.div1
+{
+  width: 33%;
+  height:200px;
+  background-color:#A52A2A ;
+  float:left;
+}
+.div2
+{
+  width: 34%;
+  height:200px;
+  background-color:#FFA500 ;
+  float:left;
+}
+.div3
+{
+  width: 33%;
+  height:200px;
+  background-color:#008000 ;
+  float:left;
+}
+
+
+/*
+	Hero banner custom
+*/
+
+.hero {
+ background-image: url("../../media/files/baner3.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ background-position-y: center;
+}
+
+.hero__content {
+    color: #2f74ad;
+}
+.hero__content h1 {
+    color: #2f74ad;
+}
+
+h1 {
+ color:#696464BF; 
+}
+
+/*
+	Image Transition LinkedIn Button
+*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Side Menu",
+        "position": "mainMenu",
+        "items": [
+            {
+                "id": 1618516995420,
+                "label": "Unity Demos",
+                "title": "",
+                "type": "post",
+                "target": "_self",
+                "rel": "",
+                "link": 3,
+                "cssClass": "",
+                "items": [
+                    {
+                        "id": 1652237192007,
+                        "label": "Paddle Game",
+                        "title": "Paddle Link",
+                        "type": "post",
+                        "target": "_self",
+                        "rel": "",
+                        "link": 3,
+                        "cssClass": "",
+                        "isHidden": false,
+                        "items": []
+                    }
+                ],
+                "isHidden": false
+            },
+            {
+                "id": 1652237952623,
+                "label": "All articles",
+                "title": "",
+                "type": "tags",
+                "target": "_self",
+                "rel": "",
+                "link": "empty",
+                "cssClass": "",
+                "isHidden": false,
+                "items": []
+            }
+        ]
+    }
+]
